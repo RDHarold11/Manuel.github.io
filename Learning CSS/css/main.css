@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Poppins";
+}
+navbar{
+    display: flex;
+    background-color: #7CD1B8;
+}
+navbar a{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+navbar a:hover{
+    background-color: #3E8E7E;
+    transition: all 0.3s ease-in;
+}
+.head{
+    text-align: center;
+    background-color: #7CD1B8;
+    color: white;
+    padding: 7% 15%;
+}
+
+.More{
+    border-radius: 2rem;
+    background-color: #FABB51;
+    padding: 7px 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.tittle{
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+.col__img{
+    width: 150px;
+}
+.abso{
+    position: absolute;
+    left: 100px;
+    width: 150px;
+}
+.lead{
+    line-height: 2;
+}
+
+.abso2{
+    position: absolute;
+    right: 100px;
+    top: 170px;
+    width: 150px;
+}
+.col__p{
+    text-align: left;
+}
+.row{
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1, .col2, .col3{
+    flex: 30%;
+    padding: 20px;
+}
+
+.video{
+    margin-top: 100px;
+    background-color: #7CD1B8;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    flex: 30%;
+    padding: 100px;
+}
+.record{
+    padding: 50px;
+}
+
+label{
+    display: block;
+    margin-bottom: .6em;
+    font-size: 1rem;
+
+}
+.contacto{
+    position: relative;
+    bottom: 60px;
+    font-size: 2rem;
+}
+.contact{
+    margin-top: 60px;
+    display: flex;
+    padding: 20px;
+}
+
+.contact__right{
+    flex: 30%;
+}
+.contact__left{
+    flex: 70%;
+    padding: 100px;
+}
+input{
+    padding:.9em;
+    margin-bottom: 1em;
+    width: 90%;
+    border-radius: 0.3rem;
+    border: 1px solid gray;
+}
+.plants{
+    width: 250px;
+    position: absolute;
+}
+.plants2{
+
+    width: 250px;
+    left: 410px;
+    position: absolute;
+}
+
+@media screen and (max-width: 1033px) {
+    * {
+        flex-direction: column;
+    }
+
+}
